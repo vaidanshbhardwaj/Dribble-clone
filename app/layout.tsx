@@ -1,11 +1,11 @@
-import Navbar from "@/components/Navbar";
-import "./globals.css";
-import { Metadata } from "next";
-import Footer from "@/components/Footer";
+import Navbar from '@/components/Navbar';
+import './globals.css';
+import { Metadata } from 'next';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: "Flexibble",
-  description: "Showcase and discover remarkable developer projects",
+  title: 'Flexibble',
+  description: 'Showcase and discover remarkable developer projects',
 };
 
 export default function RootLayout({
